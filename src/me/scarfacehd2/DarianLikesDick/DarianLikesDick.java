@@ -8,13 +8,20 @@ public class DarianLikesDick extends JavaPlugin
 	@Override
 	public void onEnable()
 	{
-		//TODO
+		// Inizialize plugin
+		loadCommands();
+		
+		DLDUtil.consoleMSG("info", "Enabled!");
 	}
 	
 	@Override
 	public void onDisable()
 	{
-		//TODO
+		DLDUtil.consoleMSG("info", "Disabled!");
 	}
 	
+	private void loadCommands()
+	{
+		//TODO
+	}
 }
