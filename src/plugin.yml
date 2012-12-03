@@ -1,0 +1,8 @@
+name: DarianLikesDick
+main: me.scarfacehd2.DarianLikesDick.DarianLikesDick
+version: 0.1
+description: A reminder plugin for Bukkit.
+author: scarfacehd2
+commands:
+    darian:
+        description: Important information.
