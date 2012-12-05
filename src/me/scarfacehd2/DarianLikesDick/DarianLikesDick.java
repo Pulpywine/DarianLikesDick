@@ -26,14 +26,6 @@ public class DarianLikesDick extends JavaPlugin
 		
 		// Info Commands
 		getCommand("darianlikesdick").setExecutor(ce);
-	}
-	
-	private void loadcomamnds()
-	{
-		DLDCommandExecutor ce = new DLDCommandExecutor(this);
-		
-		// Info Commands
 		getCommand("wholikesdick").setExecutor(ce);
-	}
 	}
 }

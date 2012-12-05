@@ -19,6 +19,7 @@ public class DLDCommandExecutor implements CommandExecutor
 	public boolean onCommand(CommandSender sender, Command command, String lablel,	String[] args)
 	{
 		if (command.getName().equalsIgnoreCase("darianlikesdick")) return darianLikesDick(sender);
+		else if (command.getName().equalsIgnoreCase("wholikesdick")) return whoLikesDick(sender);
 		
 		return false;
 	}
@@ -28,9 +29,9 @@ public class DLDCommandExecutor implements CommandExecutor
 		sender.sendMessage(ChatColor.GREEN + "You know it's true.");
 		return true;
 	}
-	private boolean wholikesdick(CommandSender send)
+	private boolean whoLikesDick(CommandSender sender)
 	{
-		send.sendmessage(ChatColor.BLUE + "Darian does!");
+		sender.sendMessage(ChatColor.BLUE + "Darian does!");
 		return true;
 		
 	}
