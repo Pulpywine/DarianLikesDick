@@ -28,5 +28,10 @@ public class DLDCommandExecutor implements CommandExecutor
 		sender.sendMessage(ChatColor.GREEN + "You know it's true.");
 		return true;
 	}
-	
+	private boolean wholikesdick(CommandSender send)
+	{
+		send.sendmessage(ChatColor.BLUE + "Darian does!");
+		return true;
+		
+	}
 }
