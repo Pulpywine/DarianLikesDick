@@ -22,6 +22,9 @@ public class DarianLikesDick extends JavaPlugin
 	
 	private void loadCommands()
 	{
-		//TODO
+		DLDCommandExecutor ce = new DLDCommandExecutor(this);
+		
+		// Info Commands
+		getCommand("darianlikesdick").setExecutor(ce);
 	}
 }
